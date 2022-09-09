@@ -34,6 +34,10 @@ final class EditArea: UIView {
         mediaHolder.selectionRect.removeFromSuperview()
         mediaHolder.view.removeFromSuperview()
     }
+    
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        true
+    }
 }
 
 final class MediaEditArea: UIView {
@@ -54,9 +58,14 @@ final class SelectionEditArea: UIView {
         super.init(frame: frame)
         
         clipsToBounds = false
+        backgroundColor = .clear
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
+        true
     }
 }

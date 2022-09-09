@@ -26,6 +26,5 @@ class ViewController: UIViewController {
         let media1 = MediaHolder(frame: CGRect(x: 20, y: 20, width: 100, height: 100))
         editArea.attachMedia(media1)
     }
-
 }
 

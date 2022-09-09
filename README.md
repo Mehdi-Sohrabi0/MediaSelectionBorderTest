@@ -5,7 +5,7 @@ Simulate what web Editor has for handling media out side the editing area;
 The idea is to have an Editing area which clips the media but not it's border, so if media goes outside the EditingArea,
 it's border still visible and can be selected and move back into editing area;
 
-![demo](Photos/demo.gif)
+![demo](Photos/demo.gif) ![demo2](Photos/demo2.gif)
 
 ### The structure of the views is as below:
 

@@ -13,8 +13,6 @@
 		E5F0934128CB45630089E027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F0933F28CB45630089E027 /* Main.storyboard */; };
 		E5F0934328CB45640089E027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F0934228CB45640089E027 /* Assets.xcassets */; };
 		E5F0934628CB45640089E027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F0934428CB45640089E027 /* LaunchScreen.storyboard */; };
-		E5F0934E28CB45820089E027 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0934D28CB45820089E027 /* Border.swift */; };
-		E5F0935028CB45AE0089E027 /* EditAreaView1234.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0934F28CB45AE0089E027 /* EditAreaView1234.swift */; };
 		E5F0935228CB49B10089E027 /* SelectionRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0935128CB49B10089E027 /* SelectionRectangle.swift */; };
 		E5F0935428CB4A6C0089E027 /* MediaHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0935328CB4A6C0089E027 /* MediaHolder.swift */; };
 		E5F0935628CB4A760089E027 /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F0935528CB4A760089E027 /* MediaView.swift */; };
@@ -32,8 +30,6 @@
 		E5F0934228CB45640089E027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F0934528CB45640089E027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5F0934728CB45640089E027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5F0934D28CB45820089E027 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
-		E5F0934F28CB45AE0089E027 /* EditAreaView1234.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAreaView1234.swift; sourceTree = "<group>"; };
 		E5F0935128CB49B10089E027 /* SelectionRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionRectangle.swift; sourceTree = "<group>"; };
 		E5F0935328CB4A6C0089E027 /* MediaHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHolder.swift; sourceTree = "<group>"; };
 		E5F0935528CB4A760089E027 /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
@@ -75,8 +71,6 @@
 				E5F0933928CB45630089E027 /* AppDelegate.swift */,
 				E5F0933B28CB45630089E027 /* SceneDelegate.swift */,
 				E5F0933D28CB45630089E027 /* ViewController.swift */,
-				E5F0934D28CB45820089E027 /* Border.swift */,
-				E5F0934F28CB45AE0089E027 /* EditAreaView1234.swift */,
 				E5F0933F28CB45630089E027 /* Main.storyboard */,
 				E5F0934228CB45640089E027 /* Assets.xcassets */,
 				E5F0934428CB45640089E027 /* LaunchScreen.storyboard */,
@@ -164,7 +158,6 @@
 			files = (
 				E5F0935428CB4A6C0089E027 /* MediaHolder.swift in Sources */,
 				E5F0933E28CB45630089E027 /* ViewController.swift in Sources */,
-				E5F0934E28CB45820089E027 /* Border.swift in Sources */,
 				E5F0935C28CB4CBD0089E027 /* EditArea.swift in Sources */,
 				E5F0933A28CB45630089E027 /* AppDelegate.swift in Sources */,
 				E5F0933C28CB45630089E027 /* SceneDelegate.swift in Sources */,
@@ -172,7 +165,6 @@
 				E5F0935628CB4A760089E027 /* MediaView.swift in Sources */,
 				E5F0935A28CB4BB90089E027 /* ScalePlugin.swift in Sources */,
 				E5F0935228CB49B10089E027 /* SelectionRectangle.swift in Sources */,
-				E5F0935028CB45AE0089E027 /* EditAreaView1234.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
